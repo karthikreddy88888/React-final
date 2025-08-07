@@ -46,13 +46,13 @@ tag to tell browsers to render the gaps.
     <li>Serve and enjoy!</li>
   </ol>
   My favorite recipe:
-  How to make Fried Potatoes
+  How to make pizza
   <ol id="wd-your-favorite-recipe">
-    <li>Cut the Patotoes in your favorite shape. </li>
-    <li>Pour some oil in a frying pan.</li>
-    <li>Add the Potatoes in the pan .</li>
-    <li>Add recommended spices and fry it for 10 min.</li>
-    <li>Serve and enjoy!</li>
+    <li>take dough </li>
+    <li>make it a circular shape.</li>
+    <li>take tomatos .</li>
+    <li>grind the tomatoes to get the sauce.</li>
+    <li>add it on the dough and microwave it to be ready to serve!</li>
   </ol>
 
   <h5>Unordered List Tag</h5>
@@ -66,11 +66,11 @@ My favorite books (in no particular order)
 </ul>
 Your favorite books (in no particular order)
 <ul id="wd-your-books">
-  <li>Harry Potter</li>
-  <li>Hunger Games</li>
-  <li>Twilight</li>
-  <li>Game of Thrones</li>
-  <li>Lord of the Rings</li>
+  <li>destination</li>
+  <li>cheetah</li>
+  <li>senna</li>
+  <li>Rush</li>
+  <li>Harry potter</li>
 </ul>
 </div>
 
@@ -113,37 +113,37 @@ Your favorite books (in no particular order)
             </tr>
             <tr>
               <td>Q5</td>
-              <td>Node.js</td>
+              <td>math</td>
               <td>3/3/21</td>
               <td>90</td>
             </tr>
             <tr>
               <td>Q6</td>
-              <td>Express.js</td>
+              <td>mobiledev</td>
               <td>3/10/21</td>
               <td>95</td>
             </tr>
             <tr>
               <td>Q7</td>
-              <td>MongoDB</td>
+              <td>science</td>
               <td>3/17/21</td>
               <td>85</td>
             </tr>
             <tr>
               <td>Q8</td>
-              <td>GraphQL</td>
+              <td>Graphicdesign</td>
               <td>3/24/21</td>
               <td>90</td>
             </tr>
             <tr>
               <td>Q9</td>
-              <td>TypeScript</td>
+              <td>JScript</td>
               <td>3/31/21</td>
               <td>95</td>
             </tr>
             <tr>
               <td>Q10</td>
-              <td>Testing</td>
+              <td>Softwaredev</td>
               <td>4/7/21</td>
               <td>85</td>
             </tr>
