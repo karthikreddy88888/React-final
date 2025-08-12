@@ -36,23 +36,23 @@ tag to tell browsers to render the gaps.
   <h5>Ordered List Tag</h5>
   How to make pancakes:
   <ol id="wd-pancakes">
-    <li>Mix dry ingredients.</li>
+    <li>Mix dry .</li>
     <li>Add wet ingredients.</li>
-    <li>Stir to combine.</li>
-    <li>Heat a skillet or griddle.</li>
-    <li>Pour batter onto the skillet.</li>
+    <li>Stir.</li>
+    <li>Heat on a griddle.</li>
+    <li>Pour batter on the skillet.</li>
     <li>Cook until bubbly on top.</li>
     <li>Flip and cook the other side.</li>
     <li>Serve and enjoy!</li>
   </ol>
   My favorite recipe:
-  How to make pizza
+  How to make Fried Potatoes
   <ol id="wd-your-favorite-recipe">
-    <li>take dough </li>
-    <li>make it a circular shape.</li>
-    <li>take tomatos .</li>
-    <li>grind the tomatoes to get the sauce.</li>
-    <li>add it on the dough and microwave it to be ready to serve!</li>
+    <li>Cut the Patotoes in your favorite shape. </li>
+    <li>Pour some oil in a frying pan.</li>
+    <li>Add the Potatoes in the pan .</li>
+    <li>Add recommended spices and fry it for 10 min.</li>
+    <li>Serve and enjoy!</li>
   </ol>
 
   <h5>Unordered List Tag</h5>
@@ -66,11 +66,11 @@ My favorite books (in no particular order)
 </ul>
 Your favorite books (in no particular order)
 <ul id="wd-your-books">
-  <li>destination</li>
-  <li>cheetah</li>
-  <li>senna</li>
-  <li>Rush</li>
-  <li>Harry potter</li>
+  <li>Harry Potter</li>
+  <li>Hunger Games</li>
+  <li>Twilight</li>
+  <li>Game of Thrones</li>
+  <li>Lord of the Rings</li>
 </ul>
 </div>
 
@@ -113,37 +113,37 @@ Your favorite books (in no particular order)
             </tr>
             <tr>
               <td>Q5</td>
-              <td>math</td>
+              <td>Node.js</td>
               <td>3/3/21</td>
               <td>90</td>
             </tr>
             <tr>
               <td>Q6</td>
-              <td>mobiledev</td>
+              <td>Express.js</td>
               <td>3/10/21</td>
               <td>95</td>
             </tr>
             <tr>
               <td>Q7</td>
-              <td>science</td>
+              <td>MongoDB</td>
               <td>3/17/21</td>
               <td>85</td>
             </tr>
             <tr>
               <td>Q8</td>
-              <td>Graphicdesign</td>
+              <td>GraphQL</td>
               <td>3/24/21</td>
               <td>90</td>
             </tr>
             <tr>
               <td>Q9</td>
-              <td>JScript</td>
+              <td>TypeScript</td>
               <td>3/31/21</td>
               <td>95</td>
             </tr>
             <tr>
               <td>Q10</td>
-              <td>Softwaredev</td>
+              <td>Testing</td>
               <td>4/7/21</td>
               <td>85</td>
             </tr>

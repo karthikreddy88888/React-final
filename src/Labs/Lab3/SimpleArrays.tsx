@@ -15,4 +15,5 @@ export default function SimpleArrays() {
       Todo list:
       <ol>{htmlArray1}</ol>
       <hr />
-    </div> );}
+    </div> );
+}
