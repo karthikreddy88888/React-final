@@ -1,52 +1,37 @@
-// import { Link } from "react-router-dom";
 
-// export default function AccountNavigation() {
-//   return (
-//     <div
-//       className="wd list-group fs-5 rounded-0">
-    
-      
-//       <Link to="/Kambaz/Account/Signin" className="list-group-item border-0 active border border-0">
-//         <span className="text-black fs-5">Signin</span>
-//       </Link>
-
-     
-//       <Link to="/Kambaz/Account/Signup" className="list-group-item border-0 text-decoration-none">
-//         <span className="text-danger  fs-5">Signup</span>
-//       </Link>
-
-      
-//       <Link to="/Kambaz/Account/Profile" className="list-group-item border-0 text-decoration-none">
-//         <span className="text-danger fs-5">Profile</span>
-//       </Link>
-//     </div>
-//   );
-// }
-
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import { Link } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
+import {useSelector} from "react-redux";
 
 export default function AccountNavigation() {
+    const { currentUser } = useSelector((state: any) => state.accountReducer);
+    const { pathname } = useLocation();
+    const active = (path: string) => (pathname.includes(path) ? "active" : "text-danger");
     return (
         <div id="wd-account-navigation" className="wd list-group fs-5 rounded-0">
             <Link
                 to="/Kambaz/Account/Signin"
                 id="wd-account-signin-link"
-                className="list-group-item active border border-0">
+                className={`list-group-item border border-0 ${active("Signin")}`}>
                 Signin
             </Link>
             <Link
                 to="/Kambaz/Account/Signup"
                 id="wd-account-signup-link"
-                className="list-group-item text-danger border border-0">
+                className={`list-group-item border border-0 ${active("Signup")}`}>
                 Signup
             </Link>
             <Link
                 to="/Kambaz/Account/Profile"
                 id="wd-account-profile-link"
-                className="list-group-item text-danger border border-0">
+                className={`list-group-item border border-0 ${active("Profile")}`}>
                 Profile
             </Link>
+            {currentUser && currentUser.role === "ADMIN" && (
+                <Link
+                    to={`/Kambaz/Account/Users`}
+                    className={`list-group-item  border border-0 ${active("Users")}`}>
+                    Users
+                </Link> )}
         </div>
     );
 }
