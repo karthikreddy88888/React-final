@@ -7,7 +7,7 @@ import KambazNavigation from "./Navigation.tsx";
 import Courses from "./Courses";
 import "./style.css";
 import ProtectedRoute from "./Account/ProtectedRoute.tsx";
-import Session from "./Account/session.tsx";
+import Session from "./Account/Session.tsx";
 import * as userClient from "./Account/client";
 import * as courseClient from "./Courses/client"
 import {useEffect, useState} from "react";
